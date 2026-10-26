@@ -1,0 +1,24 @@
+id,should_trigger,category,prompt,expected_behavior
+T-P01,true,greenfield-website,我有个想法，帮我从零规划一个面向独立摄影师的作品集和预约网站,进入 Greenfield 并建立产品蓝图而非直接写生产代码
+T-P02,true,react-web-app,帮我设计一个 React SaaS，让团队能收集和审批客户素材,覆盖产品体验系统和纵向构建切片
+T-P03,true,mobile-app,我想做一个陪跑训练的 iOS 和 Android App，从产品到交付都帮我想清楚,识别移动端约束和核心旅程
+T-P04,true,desktop-app,规划一个离线优先的桌面知识管理工具,识别桌面平台和离线数据约束
+T-P05,true,miniprogram,设计一个微信小程序，包含手机号登录下单和微信支付,触发小程序平台与登录支付闭环
+T-P06,true,multi-platform,我要做 Web 加移动端的会员产品，帮我定义首版,处理共享领域逻辑和平台分叉
+T-P07,true,existing-redesign,这是一个已有后台系统，我要做多角色重大改版,进入 Existing Product 并先审计证据和回归护栏
+T-P08,true,resume-v2,继续这个含 00_BLUEPRINT_INDEX.md 的产品规划,进入 Resume 并读取当前 frontier
+T-P09,true,resume-v1,继续这个只有 00_INDEX.md 的旧版产品蓝图,迁移旧证据并建立新的权威索引
+T-P10,true,blueprint-revision,已批准的定价决定变了，请更新整套蓝图,进入 Blueprint Revision 并传播影响
+T-P11,true,visual-first,核心用户和任务已经明确，先给我三条真正不同的视觉方向,启用 Visual-First 并给实质不同方向
+T-P12,true,express,用 Fast Track 帮我尽快把这个活动报名产品定清楚,将 Fast Track 兼容为 Express 深度
+T-P13,true,deep,这是医疗协作产品，需要深度规划权限审计和合规,启用 Deep 并触发安全合规模块
+T-P14,true,ambiguous-product,帮我把一个社区互助的产品想法变成开发可执行方案,用自适应提问收敛完整蓝图
+T-N01,false,local-ui-change,把这个按钮改成紫色并加一点圆角,局部 UI 修改不应触发
+T-N02,false,bug-fix,修复登录后偶尔跳回首页的 Bug,明确 Bug 修复不应触发
+T-N03,false,single-component,写一个支持搜索的 React 下拉组件,单组件实现不应触发
+T-N04,false,single-api,给用户查询接口增加分页参数,单 API 任务不应触发
+T-N05,false,pr-review,审查这个 PR 有没有性能问题,PR 审查不应触发
+T-N06,false,approved-ticket,按已经批准的 DEV-184 ticket 实现导出功能,已批准 ticket 实现不应触发
+T-N07,false,copy-only,把这段首页文案改得更简洁,单纯文案修改不应触发
+T-N08,false,dependency-upgrade,把项目的 React 从 18 升到当前稳定版,依赖升级不应触发
+

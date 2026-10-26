@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vibe Product Director"
+  short_description: "把网站、App、小程序想法导成高审美、前后端闭环、可直接开发的蓝图"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $vibe-product-director to turn my website, app, or mini-program idea into an implementation-ready blueprint; explain unfamiliar terms, recommend safe defaults, and do not write production code until I say 开始开发."
+
+policy:
+  allow_implicit_invocation: true

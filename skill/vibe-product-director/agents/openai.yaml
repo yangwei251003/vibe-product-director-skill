@@ -1,0 +1,8 @@
+interface:
+  display_name: "Vibe Product Director"
+  short_description: "持续追问并把网站、App、小程序导成可开发蓝图"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $vibe-product-director to route my product idea through sustained stateful grilling, keep asking across rounds until the design tree is resolved, then produce the blueprint and tickets; do not write production code until I say 开始开发."
+
+policy:
+  allow_implicit_invocation: true

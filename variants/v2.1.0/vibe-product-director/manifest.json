@@ -1,0 +1,193 @@
+{
+  "name": "vibe-product-director",
+  "version": "2.1.0",
+  "schema_version": 1,
+  "file_count": 37,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "062ee605b4fd8de5a4c580d28e7d27181c862c0de44b3d7a09a1b35e407e74eb",
+      "bytes": 1840
+    },
+    {
+      "path": "README.md",
+      "sha256": "3bbd3c2d989ac203bd7ff013e4fed8a2a2097034b0c2aac78ac07fb3da5918fe",
+      "bytes": 3075
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "48c5173dd96a5b81bc916cc91da9d569561e4b08670fa5904f8f5a8638618d87",
+      "bytes": 12118
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "55fffee243c991d5bfa5ef4b56b69d0c329de79d968e15b9aca82c0d3c58fb94",
+      "bytes": 479
+    },
+    {
+      "path": "assets/templates/conditional/CONTENT_AND_COPY.template.md",
+      "sha256": "a2c9fc36c5bbfa4d91c7ae98fb7a80d77da36972d584542f4adc93b2dd24383e",
+      "bytes": 339
+    },
+    {
+      "path": "assets/templates/conditional/CURRENT_PRODUCT_AUDIT.template.md",
+      "sha256": "b1dba44b2fc262b78781852fb053c3e17c12ad542b5367055e349378f3cd8c56",
+      "bytes": 774
+    },
+    {
+      "path": "assets/templates/conditional/DATA_AND_API_CONTRACTS.template.md",
+      "sha256": "fcdc4c2330dd7d94731c3c18048506a62365202fc5f2e232cb05a4daddf48387",
+      "bytes": 486
+    },
+    {
+      "path": "assets/templates/conditional/DECISIONS.template.md",
+      "sha256": "3e6874c7223038e716fb0c50249d11aeb4f60fe2be0a9e809c2a09847634c369",
+      "bytes": 698
+    },
+    {
+      "path": "assets/templates/conditional/DOMAIN_LANGUAGE.template.md",
+      "sha256": "108bb6a78a679876ce937cd70c8b12f13103e215b239be0f7c51108f4eed7fe9",
+      "bytes": 915
+    },
+    {
+      "path": "assets/templates/conditional/MIGRATION_PLAN.template.md",
+      "sha256": "062ce577617cf4dfb7316f981d465f85fdf943db37cf6055248e61e884bd9feb",
+      "bytes": 333
+    },
+    {
+      "path": "assets/templates/conditional/PLATFORM_CONSTRAINTS.template.md",
+      "sha256": "b17a69022f93a471494e294d99c21fa7e3918af49b26306194f771dc287d14f2",
+      "bytes": 343
+    },
+    {
+      "path": "assets/templates/conditional/PROTOTYPE_EVIDENCE.template.md",
+      "sha256": "17a75e4945802c379051d764169fef5ccf8b63d84201ec6d43761e7739519464",
+      "bytes": 1002
+    },
+    {
+      "path": "assets/templates/conditional/RESEARCH_EVIDENCE.template.md",
+      "sha256": "3d81ff293d1ca5490a31988df4d9e6710a39a0f0290e07a0e6520f1b02543148",
+      "bytes": 316
+    },
+    {
+      "path": "assets/templates/conditional/SECURITY_AND_COMPLIANCE.template.md",
+      "sha256": "25913bb5740c9ca814c1f3b1684990ac7021f8be05f94fb6c6be034aaee4e124",
+      "bytes": 391
+    },
+    {
+      "path": "assets/templates/conditional/STAKEHOLDER_QUESTIONNAIRE.template.md",
+      "sha256": "57b2e445adbff7875354c6577f071742ec4f24697ba25553a6c8a3b690ccc4b6",
+      "bytes": 941
+    },
+    {
+      "path": "assets/templates/conditional/VISUAL_EXPLORATION.template.md",
+      "sha256": "e633138cdb4cf9e5859c4dacaf86796db7c52778ca6991343e03cdfea7cc870e",
+      "bytes": 581
+    },
+    {
+      "path": "assets/templates/core/00_BLUEPRINT_INDEX.template.md",
+      "sha256": "ea9131da7e5536786e867e67c01becad89d41cf38adedb6553e9f0c447e88a91",
+      "bytes": 1745
+    },
+    {
+      "path": "assets/templates/core/BUILD_AND_ACCEPTANCE.template.md",
+      "sha256": "068a482a794da4a01595ea1135b9377204b062ca23c1ffd854935f67a18e3c1c",
+      "bytes": 2407
+    },
+    {
+      "path": "assets/templates/core/EXPERIENCE_BLUEPRINT.template.md",
+      "sha256": "aa4b36838aa500af07bb722666ae2b42fcc56741350903bc9eeed8bc58dae7a9",
+      "bytes": 1345
+    },
+    {
+      "path": "assets/templates/core/PRODUCT_BLUEPRINT.template.md",
+      "sha256": "36e368a6d55e004147d894718d8faf07a92d812ba86e1bd4b4145ac392e9d746",
+      "bytes": 1222
+    },
+    {
+      "path": "assets/templates/core/PROJECT_STATE.template.md",
+      "sha256": "219fdea1fcdf29848e50c1dff11bfefebdd767779dda55eb4dc81dc60d35de23",
+      "bytes": 2772
+    },
+    {
+      "path": "assets/templates/core/SYSTEM_BLUEPRINT.template.md",
+      "sha256": "c66993a60c20d548c95d8d7d8b77e8738c296a5e0b3d6447d54b3669ffc329db",
+      "bytes": 2493
+    },
+    {
+      "path": "evals/behavior-rubric.md",
+      "sha256": "21ad09b11e7117b86ac60ce8f3c64e287c5647be19a2f1baf7138e1f4282aaf5",
+      "bytes": 2596
+    },
+    {
+      "path": "evals/behavior-scenarios.jsonl",
+      "sha256": "cfb606a78005b4ca4a821845d18a2c2f2032443f503ead7f47169270df766e8d",
+      "bytes": 5902
+    },
+    {
+      "path": "evals/trigger-cases.csv",
+      "sha256": "3a217a1d703bc44965fb82ff5683e205e3e655656a05ae02e1b4a576054f0d60",
+      "bytes": 3280
+    },
+    {
+      "path": "references/adaptive-modes.md",
+      "sha256": "d3275887e1d383b8191f92dcb96f890a68dcf4dc01676cbf4b23056bbf724b90",
+      "bytes": 6013
+    },
+    {
+      "path": "references/blueprint-contracts.md",
+      "sha256": "3ebbfc544621485b91d17dac18998f965c3c07a735a3ef924c4aedb5d2d15986",
+      "bytes": 5253
+    },
+    {
+      "path": "references/decision-evidence-and-prototyping.md",
+      "sha256": "b58b7fb552549b8aa08a6102446308309d88783b2e47132af4bfc6cf1232cff7",
+      "bytes": 6515
+    },
+    {
+      "path": "references/platform-guidance.md",
+      "sha256": "c5d0b5cb04829555aca468abf6005632c06982833c81e58f738f141f840200a8",
+      "bytes": 2540
+    },
+    {
+      "path": "references/product-scope-and-risk.md",
+      "sha256": "e304b1116965ab582fa4b4c17d73fd6120203bbcfd038d5bc2adea1fd90cd495",
+      "bytes": 4958
+    },
+    {
+      "path": "references/readiness-and-handoff.md",
+      "sha256": "2414cd182f573a543e8bb5ada9d9d5413b02bd3fbeb620adbb22c39d22d97372",
+      "bytes": 5307
+    },
+    {
+      "path": "references/system-integrity.md",
+      "sha256": "3f4c5cba90ab40931341757066d44cd8cbbe771463e83458c42c3efbf1ee7ba9",
+      "bytes": 5996
+    },
+    {
+      "path": "references/visual-experience-system.md",
+      "sha256": "86a181bc3a526610e41d1c762fc6cdc99d055ed1c3ed507eb819a4aeb5ba9089",
+      "bytes": 4720
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "011671cca5b15b61ddcc1610091dfdb254122ed4bbc9dce67d7888e6c48103ae",
+      "bytes": 4577
+    },
+    {
+      "path": "scripts/install.ps1",
+      "sha256": "e12480d977b3c9f9ac86d8e24ccada2edddff3d08c900945e60a5902b6c5b2b8",
+      "bytes": 3039
+    },
+    {
+      "path": "scripts/install.sh",
+      "sha256": "042cec3ee1b43616643e7f15c9490446020f600b5936a61a31bbb101a33dd27a",
+      "bytes": 2354
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "sha256": "80c13492bfd7093b11622857e4e542642bb37d01d29bab1068d4f3bf057ef41a",
+      "bytes": 6613
+    }
+  ]
+}
